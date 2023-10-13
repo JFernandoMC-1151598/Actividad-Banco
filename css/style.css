@@ -1,0 +1,95 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.containerRetiro,.containerOperaciones, .containerClave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.btnClave{
+    align-items: center;
+}
+div{
+    margin: 45px;
+    text-align: center;
+}
+button[type="submit"]{
+    align-items: center;
+    background-color: #3364FF;
+    color: white;
+    font-size: 16px;
+    padding: 5px 5px;
+    border-radius: 50px 10px 50px 10px;
+    border-color: #3364FF;
+    width: 200px;
+}
+input[type="password"]{
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 20%;
+    color: #64696d;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+  }
+a{
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-decoration: none;
+    color: white;  
+}
+a:hover{
+    color: black;  
+  }
+#inner{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 50%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 40px;
+}
+#im2{
+    height: 100%;
+    width: 100%;
+}
+#Btn_Cancelar {
+    background-color: #424242;
+    border-color: #424242;
+    border-radius: 2px 2px 2px 30px;
+}
+#Btn_CancelarOpe{
+    background-color: #424242;
+    border-color: #424242;
+    border-radius: 2px 30px 2px 2px;
+    
+}
+#Btn_Otro_Valor{
+    background-color: #424242;
+    border-color: #424242;
+    border-radius: 2px 30px 2px 2px;
+}
+#BtnsIzqu{
+    
+    border-radius: 2px 2px 2px 30px;
+}
+#BtnsDerec{
+    
+    border-radius: 2px 30px 2px 2px;
+}
+#BtnsClave{
+    border-radius: 2px 30px 2px 30px;
+    width: 75px;
+}
+#divClave{
+    display: block;
+    margin: auto;
+    padding: 1%;
+    text-align: center;    
+}
